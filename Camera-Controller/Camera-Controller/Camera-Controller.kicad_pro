@@ -480,6 +480,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -490,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RicardoTemplate.kicad_pro",
+    "filename": "Camera-Controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -669,6 +670,10 @@
     [
       "48a413b4-b7c2-44ac-971c-583c31b73475",
       "Power"
+    ],
+    [
+      "c9f68456-3377-4002-8c72-2a1e35b82c23",
+      "CM5"
     ]
   ],
   "text_variables": {}

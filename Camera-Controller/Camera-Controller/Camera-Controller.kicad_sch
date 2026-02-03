@@ -8875,7 +8875,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "Camera-Controller"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "3")
 				)
@@ -8957,7 +8957,7 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "Camera-Controller"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "2")
 				)
@@ -8999,9 +8999,51 @@
 			)
 		)
 		(instances
-			(project "RicardoTemplate"
+			(project "Camera-Controller"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 72.39)
+		(size 66.04 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9f68456-3377-4002-8c72-2a1e35b82c23")
+		(property "Sheetname" "CM5"
+			(at 194.31 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM5.kicad_sch"
+			(at 194.31 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Camera-Controller"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(page "5")
 				)
 			)
 		)
