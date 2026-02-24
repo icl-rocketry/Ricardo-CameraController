@@ -6843,6 +6843,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 83.82) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106b8e23-0e5b-41c6-ac21-52f0385f6e71")
+	)
+	(wire
+		(pts
 			(xy 35.56 71.12) (xy 35.56 78.74)
 		)
 		(stroke
@@ -7680,6 +7690,16 @@
 			(type solid)
 		)
 		(uuid "7df9ce6f-7f38-4582-a049-7f92faf1abc9")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef9692e-1b67-4905-a7db-b8f5d03807f8")
 	)
 	(wire
 		(pts
@@ -9614,6 +9634,17 @@
 		)
 		(uuid "25247d0c-5910-484b-9651-5750d422a450")
 	)
+	(hierarchical_label "USB2_1_P"
+		(shape input)
+		(at 30.48 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3075acba-fda3-4710-95d6-93fc20d4f32c")
+	)
 	(hierarchical_label "CAM_GPIO0"
 		(shape input)
 		(at 143.51 66.04 180)
@@ -9646,6 +9677,17 @@
 			(justify right)
 		)
 		(uuid "5290e0d7-1f24-4c0b-91ff-28c5a304ab9a")
+	)
+	(hierarchical_label "USB2_1_N"
+		(shape input)
+		(at 30.48 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56da4d97-c060-4167-b3d1-b500682563ae")
 	)
 	(hierarchical_label "PCIE_nCLKREQ"
 		(shape input)
