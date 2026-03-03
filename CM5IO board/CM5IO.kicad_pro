@@ -626,6 +626,12 @@
       ],
       "/Data-": [
         "USB"
+      ],
+      "/Ricardo/Data+": [
+        "USB"
+      ],
+      "/Ricardo/Data-": [
+        "USB"
       ]
     },
     "netclass_patterns": [
@@ -862,15 +868,19 @@
       "PCIe-M2"
     ],
     [
-      "ded607f3-3cfa-4e60-bc8d-1a54579a0cf2",
+      "9fe0f7c3-d1a2-46ee-9d93-86ad4b786b0e",
+      "Ricardo"
+    ],
+    [
+      "7c83ec68-bd3c-426b-8a30-c92aec1d01ac",
       "CAN-BUS"
     ],
     [
-      "f4d0bf4a-17f8-44e7-ae4d-e56b3af37d5e",
+      "2c4b107b-1919-42e4-b8a8-1936b0caf731",
       "Power"
     ],
     [
-      "c862b160-a356-459e-a62e-d71f5db5c7f5",
+      "0c984a55-4862-4f62-828e-8c31ecb6e4fe",
       "USB"
     ]
   ],
