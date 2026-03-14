@@ -160,6 +160,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 125.73) (xy 92.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b550883-464e-4f9d-ba3a-5a451f018bd5")
+	)
+	(wire
+		(pts
 			(xy 231.14 55.88) (xy 241.3 55.88)
 		)
 		(stroke
@@ -407,6 +417,16 @@
 			(justify left bottom)
 		)
 		(uuid "a06e8e78-f567-42e6-b645-013b1073ca31")
+	)
+	(label "+5v"
+		(at 92.71 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0aa2e8d-ed29-4cb5-93fc-2a4ff5547cdc")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1871,6 +1891,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 88.9 125.73 0)
+			(uuid "9fb0235f-52ca-44e8-9f39-ecd9f7941acf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

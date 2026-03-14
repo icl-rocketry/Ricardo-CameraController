@@ -684,16 +684,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 101.6 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be01b35-e9a9-4213-a013-7f83674bbfe1")
-	)
-	(wire
-		(pts
 			(xy 110.49 80.01) (xy 113.03 80.01)
 		)
 		(stroke
@@ -784,7 +774,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 101.6 96.52)
+			(xy 110.49 96.52) (xy 102.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -853,6 +843,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 102.87 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cb19e42-7a4f-4852-86fd-5ee61eeffa0d")
 	)
 	(symbol
 		(lib_id "Device:R")
