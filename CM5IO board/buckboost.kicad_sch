@@ -1628,7 +1628,7 @@
 		)
 		(uuid "70540945-0b13-4760-abac-eaddf154ffc8")
 	)
-	(label "ILIM_OUT"
+	(label "ILIM_IO"
 		(at 143.51 106.68 180)
 		(effects
 			(font
@@ -1638,7 +1638,7 @@
 		)
 		(uuid "8270a6b5-0108-41cd-8665-fa3b3408feda")
 	)
-	(label "FSW_OUT"
+	(label "FSW_IO"
 		(at 162.56 99.06 90)
 		(effects
 			(font
@@ -1648,7 +1648,7 @@
 		)
 		(uuid "8513fd42-c7bf-44f6-9bc4-4e3433c914bb")
 	)
-	(label "ILIM_IN"
+	(label "ILIM_IO"
 		(at 148.59 71.12 0)
 		(effects
 			(font
@@ -1658,7 +1658,7 @@
 		)
 		(uuid "8ad08b76-499a-4467-9d85-e0e9d5d4547e")
 	)
-	(label "FSW_IN"
+	(label "FSW_IO"
 		(at 120.65 68.58 180)
 		(effects
 			(font
@@ -1668,7 +1668,7 @@
 		)
 		(uuid "a9a183db-6039-47f1-a142-abd192f5745f")
 	)
-	(label "BOOT_OUT"
+	(label "BOOT_IO"
 		(at 151.13 100.33 90)
 		(effects
 			(font
@@ -1678,7 +1678,7 @@
 		)
 		(uuid "d43554ab-63cb-4715-a456-cc54926548ea")
 	)
-	(label "COMP_IN"
+	(label "COMP_IO"
 		(at 120.65 76.2 180)
 		(effects
 			(font
@@ -1688,7 +1688,7 @@
 		)
 		(uuid "d604248f-c5fc-472d-ba16-67d8c3d54966")
 	)
-	(label "BOOT_IN"
+	(label "BOOT_IO"
 		(at 148.59 76.2 0)
 		(effects
 			(font
@@ -1698,7 +1698,7 @@
 		)
 		(uuid "ff08567d-9099-4752-8db6-0fadc7ff6545")
 	)
-	(label "COMP_OUT"
+	(label "COMP_IO"
 		(at 127 106.68 180)
 		(effects
 			(font
