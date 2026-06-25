@@ -1,0 +1,888 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d1a7a59c-ad9d-4d32-bdb8-b75202f2a7ad")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b88b09-1d8d-4811-97a3-bff8f4afabac")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 135.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aae32e2-e360-4808-97ef-fad0027e4db4")
+	)
+	(wire
+		(pts
+			(xy 138.43 144.78) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c048bcd-8d4b-46ce-a5d9-c22413981ad8")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4274853d-51c3-4dad-a977-e3f718ca570a")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452d8379-5c2e-49ab-8ffa-3b864d91623f")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d6c40b-b3ee-4da8-bb07-37db7f7ad79f")
+	)
+	(wire
+		(pts
+			(xy 123.19 102.87) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66887157-6a4c-41ae-8079-999568a3d6b0")
+	)
+	(wire
+		(pts
+			(xy 125.73 102.87) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807e28cd-c45f-4e6c-8def-c1f80c22e22e")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5916c1d-bb8b-4be6-ae1b-5d939368bbd1")
+	)
+	(wire
+		(pts
+			(xy 140.97 144.78) (xy 140.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cfb674-d092-4f81-b9d7-8cad78fa59ce")
+	)
+	(wire
+		(pts
+			(xy 82.55 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54e1786-0104-453d-b394-73c151191511")
+	)
+	(wire
+		(pts
+			(xy 232.41 105.41) (xy 234.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb625d22-9504-43a6-9c69-2f78e0554318")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ada59f-fd14-40c7-96fe-92a639f649b1")
+	)
+	(label "+5v"
+		(at 149.86 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c367790-e8f9-4a81-83fe-5e06066c00b9")
+	)
+	(label "+5v"
+		(at 210.82 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b859393-9323-4fb9-9788-448d95158298")
+	)
+	(label "+3.3v"
+		(at 120.65 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "978b328f-b726-4f11-beb6-24cbc62b8adc")
+	)
+	(label "+5v"
+		(at 82.55 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5bb52c5-b94e-420e-b4eb-1aa4b9efae4a")
+	)
+	(label "+5v"
+		(at 234.95 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f860fbac-7c62-4c66-a820-170df21db784")
+	)
+	(label "+3.3v"
+		(at 149.86 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb9e3fd5-dbbd-4503-9112-1b227af7324d")
+	)
+	(hierarchical_label "TXD0"
+		(shape output)
+		(at 138.43 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0560eaef-2620-43ab-b02a-731cb1089d00")
+	)
+	(hierarchical_label "RXD0"
+		(shape input)
+		(at 140.97 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c22aa798-15b5-428b-bea9-39727ddbe41d")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 232.41 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee32cb5-2e77-44d3-85c5-e97562533325")
+		(property "Reference" "#PWR064"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 232.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b3da459-45a2-46f2-a57a-d14570966b5e")
+		)
+		(instances
+			(project ""
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b48a5948-69b4-45bb-863b-9b57d676a485"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 46.99)
+		(size 27.94 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8415a62-5267-45b5-96df-bfd9c884cd34")
+		(property "Sheetname" "CM4 _HighSpeed"
+			(at 120.142 43.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
+			(at 120.142 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3v" input
+			(at 120.65 50.8 180)
+			(uuid "e36ad212-f1f8-494f-bf89-545909a0a60b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM_GPIO" input
+			(at 133.35 102.87 270)
+			(uuid "f4e88d34-dcc7-4bb6-a2c5-e3575c8547ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_VREF" input
+			(at 129.54 102.87 270)
+			(uuid "096d6b49-67d6-41a1-9cf2-64faee89319b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SC" input
+			(at 138.43 102.87 270)
+			(uuid "fccd1b99-31db-48f8-b619-8fdc7d252213")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID_SD" input
+			(at 140.97 102.87 270)
+			(uuid "58786264-e3e9-4309-86fd-4b345ed741aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL0" input
+			(at 125.73 102.87 270)
+			(uuid "7e6dec76-030b-4b39-9b24-dbd5038b8451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA0" input
+			(at 123.19 102.87 270)
+			(uuid "0f76a681-a52a-44a3-84be-1da1b50f2c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TV_OUT" output
+			(at 135.89 102.87 270)
+			(uuid "a05af628-9a3f-453d-ab1c-6d3b01da1c8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_N" bidirectional
+			(at 120.65 83.82 180)
+			(uuid "ca5d57d2-fa62-470a-8177-e0ccf4d8876e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_P" bidirectional
+			(at 120.65 86.36 180)
+			(uuid "29470971-8c97-4fdb-8cac-7b4ee01d9ab3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBOTG_ID" input
+			(at 120.65 71.12 180)
+			(uuid "6ce75ff5-3771-4cf2-8096-a4623cc08bbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Camera-controller"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b48a5948-69b4-45bb-863b-9b57d676a485"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 68.58)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c17efef6-2840-4691-aac3-b54112605dee")
+		(property "Sheetname" "CM4_USB"
+			(at 54.61 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_USB.kicad_sch"
+			(at 54.61 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5v" input
+			(at 82.55 73.66 0)
+			(uuid "5bab50ec-377a-47af-b39b-a2dfbc66ebd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nOSC" input
+			(at 82.55 77.47 0)
+			(uuid "1dba942c-cca7-464c-8ab3-ef1282490fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR" input
+			(at 82.55 80.01 0)
+			(uuid "efb2115f-5cea-4f6a-8e1d-15a1ff9cb215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_N" bidirectional
+			(at 82.55 83.82 0)
+			(uuid "dd63b1de-3b7d-4773-a60e-0a0cfa297905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_P" bidirectional
+			(at 82.55 86.36 0)
+			(uuid "92b2afb0-e561-4106-9c71-7cceb2491fbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBOTG" output
+			(at 82.55 71.12 0)
+			(uuid "4c67e972-8b9e-4e82-8283-19e696025bda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Camera-controller"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b48a5948-69b4-45bb-863b-9b57d676a485"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 111.76)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4624d3a-2032-414a-9464-7d089c01d735")
+		(property "Sheetname" "CM4_GPIO"
+			(at 108.712 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_GPIO.kicad_sch"
+			(at 120.65 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3v" output
+			(at 149.86 132.08 0)
+			(uuid "03d8bfc3-f090-45f8-84f7-79de6c5710f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5v" input
+			(at 149.86 127 0)
+			(uuid "fb7c28a7-e506-4b2d-9e1b-8d77a2fc34b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO" output
+			(at 133.35 111.76 90)
+			(uuid "2c342b2f-6b16-4482-852f-8c465829dbca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLOBAL_EN" input
+			(at 120.65 130.81 180)
+			(uuid "b75b7f95-c246-4ab1-8fa6-92a017e331e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_VREF" output
+			(at 129.54 111.76 90)
+			(uuid "d424cb53-f412-4810-b2d0-726baa06914f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_SC" output
+			(at 138.43 111.76 90)
+			(uuid "4268f9ad-4a11-4c0f-b1d7-fe981e9b7bcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_SD" output
+			(at 140.97 111.76 90)
+			(uuid "87b08111-def1-4cf1-a5dd-4021dc75cb1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nEXTRST" output
+			(at 120.65 135.89 180)
+			(uuid "797a8651-64ce-4ca3-ab2e-af2b58201d53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL0" output
+			(at 125.73 111.76 90)
+			(uuid "471ce1cb-2a35-49d8-a573-2ceaf4853c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA0" output
+			(at 123.19 111.76 90)
+			(uuid "3dae0221-1ee1-46a3-8160-32cb728a8a1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TV_OUT" input
+			(at 135.89 111.76 90)
+			(uuid "b2d24ab1-ca80-46e0-a76d-5d93991278cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD0" input
+			(at 140.97 138.43 270)
+			(uuid "1944b5c5-8241-4942-8317-b2c76399fa8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD0" output
+			(at 138.43 138.43 270)
+			(uuid "6a64f158-3e6c-4850-9ba0-202e3ef11cc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Camera-controller"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b48a5948-69b4-45bb-863b-9b57d676a485"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 85.09)
+		(size 24.13 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6b478e2-fef6-4416-8e12-cb65f36281b2")
+		(property "Sheetname" "PSUs"
+			(at 186.69 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSUs.kicad_sch"
+			(at 186.69 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5v" output
+			(at 210.82 90.17 0)
+			(uuid "f8c242a5-0cb4-4f42-b3eb-951cb232e7ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Camera-controller"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/b48a5948-69b4-45bb-863b-9b57d676a485"
+					(page "9")
+				)
+			)
+		)
+	)
+)
